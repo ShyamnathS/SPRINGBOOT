@@ -66,6 +66,14 @@ public class ReceipeController {
 		
 		return exist;
 	}
+
+public Receipe update(@PathVariable int id, @RequestBody Receipe receipe)
+	{
+		receipe.setId(id);
+		
+		return repo.save(receipe);
+		
+	}
 	
 	
 }
