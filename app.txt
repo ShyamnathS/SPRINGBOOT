@@ -4,3 +4,9 @@ spring.datasource.username=root
 spring.datasource.password=Shyam@123
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 server.port=9002
+
+
+Spring Web
+Spring Data Jpa
+Mysql driver
+spring boot devtools
